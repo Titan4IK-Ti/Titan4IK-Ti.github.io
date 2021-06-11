@@ -1,7 +1,21 @@
-<!DOCTYPE html>
 <html>
+<head>
+    <title>Space Clicker</title>
+</head>
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+    <script type="text/javascript">
+    var clicks = 0; // change int to var here
+    function countClicks() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="countClicks()">click</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
+
+
+
+</body></html>
