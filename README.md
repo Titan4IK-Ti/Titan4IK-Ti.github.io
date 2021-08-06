@@ -3,7 +3,7 @@
 
 **following links are pictures match the title**
 
-### login
+### loginы
 
 ![login](https://github.com/LockeyCheng/onlineChatting-by-websocket-basedon-python/blob/master/example-pictures/login.PNG)
 
