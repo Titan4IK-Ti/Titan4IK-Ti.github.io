@@ -1,2 +1,2 @@
 # Хуевый сайт
-На сайт можна зайти по ссылке: Titan4IK-Ti.github.io
+На сайт можна зайти по ссылке: https://titan4ik-ti.github.io
