@@ -43,10 +43,16 @@ border: solid 2px #4faef2;
 color: #4faef2;
 box-shadow: 0 4px 0 0 #4faef2;
 overflow: hidden;
+display: flex;
+flex-direction: row;
+justify-content: flex-center;
 }
 .outline-shadow span {
 position: relative;
 z-index: 2;
+display: flex;
+flex-direction: row;
+justify-content: flex-center;
 }
 .outline-shadow::after {
 content: '';
@@ -60,14 +66,23 @@ border-radius: 50%;
 width: 0;
 height: 0;
 transition: all 400ms;
+display: flex;
+flex-direction: row;
+justify-content: flex-center;
 }
 .outline-shadow:hover:after {
 width: 12rem;
 height: 12rem;
+display: flex;
+flex-direction: row;
+justify-content: flex-center;
 }
 .outline-shadow:active {
 margin-top: 4px;
 box-shadow: 0 0 0 0 #4faef2;
+display: flex;
+flex-direction: row;
+justify-content: flex-center;
 }
 
 </style>
