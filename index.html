@@ -33,63 +33,6 @@ a {
   color: #008CBA;
 }
 
-.outline-shadow {
-position: relative;
-font-weight: 600;
-text-transform: uppercase;
-font-style: italic;
-letter-spacing: 1px;
-border: solid 2px #4faef2;
-color: #4faef2;
-box-shadow: 0 4px 0 0 #4faef2;
-overflow: hidden;
-display: flex;
-flex-direction: row;
-justify-content: flex-center;
-text-align: center;
-}
-.outline-shadow span {
-position: relative;
-z-index: 2;
-display: flex;
-flex-direction: row;
-justify-content: flex-center;
-text-align: center;
-}
-.outline-shadow::after {
-content: '';
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-background: #85dafc;
-opacity: 0.1;
-border-radius: 50%;
-width: 0;
-height: 0;
-transition: all 400ms;
-display: flex;
-flex-direction: row;
-justify-content: flex-center;
-text-align: center;
-}
-.outline-shadow:hover:after {
-width: 12rem;
-height: 12rem;
-display: flex;
-flex-direction: row;
-justify-content: flex-center;
-text-align: center;
-}
-.outline-shadow:active {
-margin-top: 4px;
-box-shadow: 0 0 0 0 #4faef2;
-display: flex;
-flex-direction: row;
-justify-content: flex-center;
-text-align: center;
-}
-
 </style>
 </head>
 <body background="dsc.jpg">
@@ -101,7 +44,6 @@ text-align: center;
 <p>| 99 Ратников</p>
 <p>| 30 Вирусов</p>
 <p>| Купон чтобы выебать Евкакиза в очко</p>
-  <button class="button outline-shadow"><span>Sample</span></button> outline-shadow"><span>Sample</span></button> outline-shadow"><span>Sample</span></button>
 
 </div>
   
