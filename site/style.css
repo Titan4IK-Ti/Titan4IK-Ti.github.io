@@ -1,0 +1,43 @@
+h1 {
+color: blue;
+display: flex;
+justify-content: center;
+align-items: center;	
+}
+
+  body {
+   background-color: #88B04B; 
+  }
+
+  .buton {
+    text-decoration: none;
+    background: linear-gradient(45deg, yellow, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.cent{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.ce2{
+  position: absolute;
+  top: 57%;
+  right: 35%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.ce3{
+  position: absolute;
+  top: 57%;
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+}
