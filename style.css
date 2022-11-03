@@ -40,7 +40,7 @@ h1 {
 .buton {
   text-decoration: none;
   background: linear-gradient(to bottom right, #995EB6, #9EC6ED);
-  padding: 10px 40px;
+  padding: 10% 40%;
   border-radius: 5px;
   color: white;
   font-weight: 700;
