@@ -9,6 +9,7 @@ background: #333333;
   width: 100%;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .flex-box {
@@ -19,6 +20,7 @@ background: #333333;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .global {
