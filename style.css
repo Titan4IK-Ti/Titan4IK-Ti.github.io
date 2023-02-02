@@ -1,0 +1,78 @@
+body {
+background: #333333;
+}
+
+.flex-korobka {
+  display: flex;
+  background-color: #54A074;
+  height: 222px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box {
+  display: flex;
+  background-color: #A9B59B;
+  height: 111px;
+  width: 333px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.global {
+  color: white;
+  font-family: 'Martian Mono', monospace;
+}
+
+.flex-abaut {
+  display: flex;
+  background-color: #A9B59B;
+  height: 666px;
+  width: 100%;
+}
+
+.flex-boxick {
+  display: flex;
+  background-color: #A9B59B;
+  height: 500px;
+  width: 60%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  flex-direction: column;
+}
+
+
+.txtx{
+  align-self: center;
+  font-size:38px
+}
+
+.ops{
+  align-self: left;
+  font-size: 25px
+}
+
+.sda{
+  font-size: 200px;
+  align-self: center;
+}
+
+.flex-info {
+  display: flex;
+  background-color: #FFCF56;
+  height: 666px;
+  width: 100%;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+}
+
+.flex-footer {
+  display: flex;
+  background-color: #A0E8AF;
+  height: 33px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
