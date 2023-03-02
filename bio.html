@@ -14,8 +14,19 @@ text-align: center;
 font-size: 66px;
 }
 </style>
+
+<script>
+var dots = window.setInterval( function() {
+    var wait = document.getElementById("wait");
+    if ( wait.innerHTML.length > 3 ) 
+        wait.innerHTML = "";
+    else 
+        wait.innerHTML += ".";
+    }, 100);
+</script>
+  
 </head>
 <body>
-<h1 class="cent">Cumming soon.</h1>
+<h1 class="cent">Cumming soon. <span id="wait">.</span></h1>
 </body>
 </html>
