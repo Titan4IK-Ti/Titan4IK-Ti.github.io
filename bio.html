@@ -18,15 +18,15 @@ font-size: 66px;
 <script>
 var dots = window.setInterval( function() {
     var wait = document.getElementById("wait");
-    if ( wait.innerHTML.length > 3 ) 
+    if ( wait.innerHTML.length > 2 ) 
         wait.innerHTML = "";
     else 
         wait.innerHTML += ".";
-    }, 1000);
+    }, 500);
 </script>
   
 </head>
 <body>
-<h1 class="cent">Cumming soon <span id="wait">.</span></h1>
+<h1 class="cent">Cumming soon.<span id="wait">.</span></h1>
 </body>
 </html>
