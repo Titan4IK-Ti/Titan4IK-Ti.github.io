@@ -43,7 +43,7 @@ function create ()
 
     // platforms.create(600, 400, 'ground');
     // platforms.create(50, 250, 'ground');
-    // platforms.create(750, 220, 'ground');
+    // platforms.create(750, 220, 'ground'); aboba
 
     movingPlatform = this.physics.add.image(400, 400, 'ground');
 
