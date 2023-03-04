@@ -42,14 +42,14 @@ function create ()
     platforms.create(400, 568, 'ground').setScale(2).refreshBody();
 
     // platforms.create(600, 400, 'ground');
-    platforms.create(50, 250, 'ground');
+    // platforms.create(50, 250, 'ground');
     // platforms.create(750, 220, 'ground');
 
-    // movingPlatform = this.physics.add.image(400, 400, 'ground');
+    movingPlatform = this.physics.add.image(400, 400, 'ground');
 
-    // movingPlatform.setImmovable(true);
-    // movingPlatform.body.allowGravity = false;
-    // movingPlatform.setVelocityX(50); avovaba
+    movingPlatform.setImmovable(true);
+    movingPlatform.body.allowGravity = false;
+    movingPlatform.setVelocityX(50);
 
     player = this.physics.add.sprite(100, 450, 'dude');
 
