@@ -49,7 +49,7 @@ function create ()
 
     // movingPlatform.setImmovable(true);
     // movingPlatform.body.allowGravity = false;
-    // movingPlatform.setVelocityX(50);
+    // movingPlatform.setVelocityX(50); avovaba
 
     player = this.physics.add.sprite(100, 450, 'dude');
 
