@@ -27,10 +27,10 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('sky', 'bobrgames/sky.png');
-    this.load.image('ground', 'bobrgames/platform.png');
-    this.load.image('star', 'bobrgames/star.png');
-    this.load.spritesheet('dude', 'bobrgames/dude.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.image('sky', 'https://raw.githubusercontent.com/photonstorm/phaser3-examples/master/public/src/games/firstgame/assets/sky.png');
+    this.load.image('ground', 'https://raw.githubusercontent.com/photonstorm/phaser3-examples/master/public/src/games/firstgame/assets/platform.png');
+    this.load.image('star', 'https://raw.githubusercontent.com/photonstorm/phaser3-examples/master/public/src/games/firstgame/assets/star.png');
+    this.load.spritesheet('dude', 'https://raw.githubusercontent.com/photonstorm/phaser3-examples/master/public/src/games/firstgame/assets/dude.png', { frameWidth: 32, frameHeight: 48 });
 }
 
 function create ()
