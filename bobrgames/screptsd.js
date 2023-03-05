@@ -24,6 +24,7 @@ var cursors;
 var movingPlatform;
 
 var game = new Phaser.Game(config);
+var bebras = 0;
 
 function preload ()
 {
@@ -137,4 +138,5 @@ function update ()
 function collectStar (player, star)
 {
     star.disableBody(true, true);
+    bebras += 1;
 }
