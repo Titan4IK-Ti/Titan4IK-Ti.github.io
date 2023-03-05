@@ -137,6 +137,6 @@ function update ()
 
 function collectStar (player, star)
 {
-    star.disableBody(true, true);
     bebras += 1;
+    star.disableBody(true, true);
 }
