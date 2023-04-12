@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Martian+Mono:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<p>Website made by Titan4IK#7587. Site version 1.0</p>
+<div class="cla">
+<button id="red" onclick="chooseColor('red')" class="kasbut">Red</button>
+<button id="black" onclick="chooseColor('black')" class="kasbut">Black</button>
+<br><br><br>
+<div class="button-container">
+  <input type="number" id="bet-input" class="iput" value="100">
+  <br>
+  <br>
+  <br>
+  <button onclick="placeBet()">Place bet</button>
+</div>
+<br>
+<div class="korobka">
+<h1 class="h1st">Bal:</h1>
+<span id="balance" class="p1st">0</span>
+<h1 class="h1st">Last bet:</h1>
+<span id="last-bet" class="p1st">-</span>
+<h1 class="h1st">Result</h1>
+<span id="result" class="p1st">-</span>
+</div>
+<button onclick="increment()", class="butston">Deposit</button>
+</div>
+</body>
+</html>
