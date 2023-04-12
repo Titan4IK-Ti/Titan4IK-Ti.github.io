@@ -58,5 +58,4 @@ function increment() {
   if (balance < 1000) {
     document.getElementById("deb").style.backgroundColor = "green";
   }
-  }
 }
