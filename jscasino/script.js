@@ -43,6 +43,10 @@ function placeBet() {
 }
 
 function increment() {
-  balance += 100;  // увеличиваем значение переменной на 1 при каждом нажатии на кнопку
-  document.getElementById("balance").innerHTML = balance; // обновляем значение переменной на странице
+  balance += 100;
+  document.getElementById("balance").innerHTML = balance;
+  
+  if (balance > 1000) {
+    alert("whyyy");
+  }
 }
