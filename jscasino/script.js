@@ -37,6 +37,13 @@ function placeBet() {
     result = "u lost " + bet + " coins!";
   }
   document.getElementById("balance").innerHTML = balance;
+  
+  if (balance < 1000) {
+    document.getElementById("deb").style.backgroundColor = "green";
+  } else {
+    document.getElementById("deb").style.backgroundColor = "orange";
+  }
+  
   document.getElementById("last-bet").innerHTML = lastBet;
   document.getElementById("result").innerHTML = result;
   lastBet = bet;
