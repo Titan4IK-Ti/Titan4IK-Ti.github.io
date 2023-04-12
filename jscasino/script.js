@@ -51,11 +51,9 @@ function increment() {
   balance += 100;
   document.getElementById("balance").innerHTML = balance;
 
-  if (balance > 1000) {
-    document.getElementById("deb").style.backgroundColor = "orange";
-  } 
-  
   if (balance < 1000) {
     document.getElementById("deb").style.backgroundColor = "green";
+  } else {
+    document.getElementById("deb").style.backgroundColor = "orange";
   }
 }
