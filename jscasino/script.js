@@ -52,8 +52,8 @@ function increment() {
   document.getElementById("balance").innerHTML = balance;
 
   if (balance > 1000) {
-    document.getElementById("deposit-button").style.backgroundColor = "orange";
+    document.getElementById("deb").style.backgroundColor = "orange";
   } else {
-    document.getElementById("deposit-button").style.backgroundColor = "#4CAF50";
+    document.getElementById("deb").style.backgroundColor = "#4CAF50";
   }
 }
