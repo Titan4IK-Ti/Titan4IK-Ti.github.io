@@ -48,5 +48,8 @@ function increment() {
   
   if (balance > 1000) {
     alert("whyyy");
+    document.getElementById("deb").style.backgroundColor = "orange";
+  } else {
+    document.getElementById("deb").style.backgroundColor = "green";
   }
 }
