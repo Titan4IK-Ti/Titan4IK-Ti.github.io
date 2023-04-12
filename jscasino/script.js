@@ -43,13 +43,17 @@ function placeBet() {
 }
 
 function increment() {
+  if (balance >= 1000) {
+    alert("U hacker? Your balance is higher than 1000, you cannot use the deposit button");
+    return;
+  }
+
   balance += 100;
   document.getElementById("balance").innerHTML = balance;
-  
+
   if (balance > 1000) {
-    alert("whyyy");
-    document.getElementById("deb").style.backgroundColor = "orange";
+    document.getElementById("deposit-button").style.backgroundColor = "orange";
   } else {
-    document.getElementById("deb").style.backgroundColor = "green";
+    document.getElementById("deposit-button").style.backgroundColor = "#4CAF50";
   }
 }
