@@ -121,12 +121,33 @@ function showSchedule(day) {
   for (var j = 0; j < scheduleRows.length; j++) {
     scheduleRows[j].style.display = "table-row";
   }
+
+  // Обновляем текст элемента с id="dayOfWeek" в зависимости от выбранного дня
+  var dayOfWeekElement = document.getElementById("dayOfWeek");
+  switch (day) {
+    case 'pon':
+      dayOfWeekElement.textContent = 'Урокі на понеділок';
+      break;
+    case 'vivtorok':
+      dayOfWeekElement.textContent = 'Урокі на вівторок';
+      break;
+    case 'sereda':
+      dayOfWeekElement.textContent = 'Урокі на середу';
+      break;
+    case 'chetver':
+      dayOfWeekElement.textContent = 'Урокі на четвер';
+      break;
+    case 'ptnitsa':
+      dayOfWeekElement.textContent = 'Урокі на пятницю';
+      break;
+    // Добавьте дополнительные случаи для других дней недели, если необходимо
+  }
 }
 
-// Вызываем функцию для отображения расписания на понедельник при загрузке страницы
 window.onload = function() {
   showSchedule('pon');
 };
+
 </script>
 
 </head>
@@ -142,7 +163,7 @@ window.onload = function() {
 
 <table id="customers">
   <tr>
-    <th>Урок</th>
+    <th id="dayOfWeek">Урок на понедельник</th>
     <th>Дзвінки</th>
     <th>Каб.</th>
   </tr>
