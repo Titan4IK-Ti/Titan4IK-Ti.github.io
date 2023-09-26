@@ -7,6 +7,7 @@
 <style>
 :root {
   --dynamic-padding: 7vw;
+  --dynamic-text: 100px;
 }
 
 body {
@@ -47,14 +48,44 @@ li {
   font-size: 16px;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 630px) {
   :root {
-    --dynamic-padding: 8vw;
+    --dynamic-text: 130px;
   }
 }
 
+@media (min-width: 760px) {
+  :root {
+    --dynamic-text: 150px;
+  }
+}
+
+@media (min-width: 914px) {
+  :root {
+    --dynamic-text: 180px;
+  }
+}
+
+@media (min-width: 1100px) {
+  :root {
+    --dynamic-text: 190px;
+  }
+}
+
+@media (min-width: 1192px) {
+  :root {
+    --dynamic-text: 210px;
+  }
+}
+
+@media (min-width: 1300px) {
+  :root {
+    --dynamic-text: 220px;
+  }
+}
 #customers {
-  margin-top: 100px;
+  margin-top: var(--dynamic-text);
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
