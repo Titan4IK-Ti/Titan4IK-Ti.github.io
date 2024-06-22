@@ -1,0 +1,71 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section {
+    background-color: #383838;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+.skills .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skills .skill .bar {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    width: 70%;
+    height: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.skills .skill .bar .fill {
+    background-color: #a0a0a0;
+    border-radius: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.note {
+    font-size: 10px;
+    text-align: right;
+    color: #a0a0a0;
+}
