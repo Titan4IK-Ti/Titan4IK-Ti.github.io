@@ -9,6 +9,25 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        align-items: center;
+        margin-top: 0px;
+    }
+}
+
 .profile-card {
     background-color: #292929;
     border-radius: 10px;
@@ -69,3 +88,39 @@ body {
     text-align: right;
     color: #a0a0a0;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background: linear-gradient(90deg, #2e2e2e 0%, #383838 50%, #2e2e2e 100%);
+    color: #a0a0a0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 115px; /* Ширину можно изменить под свои нужды */
+    border: none;
+    display: flex;
+    justify-content: space-between; /* Распределение текста и иконки */
+    align-items: center; /* Центровка по вертикали */
+}
+
+.button i {
+    font-size: 20px; /* Размер иконки */
+}
+
+.button:hover {
+    background-color: #4a4a4a;
+}
+
