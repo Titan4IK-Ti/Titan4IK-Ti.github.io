@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta property="og:title" content="freemao freemao freemao freemao" />
+<meta property="og:type" content="freemao freemao freemao freemao" />
+<meta property="og:url" content="freemao freemao freemao freemao" />
+<meta property="og:description" content="freemao freemao freemao freemao freemao" />
+<html>
+<head>
+    <title>Titan4IK</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-color: black;
+            color: lime; /* Зеленый цвет для текста */
+        }
+        h1, h3 {
+            color: lime;
+        }
+    </style>
+    
+    <script>
+        $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
+            $("#gfg").html(data.ip);
+            $("#gfgd").html(data.country_name);
+        })
+    </script>
+</head>
+
+<body>
+    <center>
+        <h1>you've been scammed. ỳ̰̬̠͔͚̟̙̫̝͂̉̈́̇̎̊̍̋̓o̖̙̣͈͎͖̓͐̌̉u͕͔̟̳̬̞̰̪̒͒̐̈͋͒̏͊̚ d̞̟͖̲̘͎͖͉͔͙͇̓̓̍̓͗̏̆ȋ̥̮̲͎͓̅͊̔͌̄d̪̲̝̟̗͎͚̮͇̅̊̋̊̃̄̊̿̃n̞͔̘̳̭͕̲̝̬̭͂͐̇̈́̐̓̉͗̚'̙͔̤͙͚͖̅̄́̇̍̇̃͋͐̋t̟̟͔̅̀̌̈̃̿̊̂̓̓̚ͅ h͓̯̭͉̬͔͎͓͈̿͂͂̆̍ä͇͔̗̝̟̳͔͍̠̯͈̊̇̀̀̾͛̉v̩̦͙̦̆̂̓̊̉̾̏e̠̥̩̯͔͙͕͉͒̌͛̌͋ͅ t͙͇̟̰̗̖͕̫̣͛͐̿̆̿̓͂͊̅̈́̅̾o̫͖͈͕͚̮̞̿͛̓̈́̔̔̓̐̀ d̯͎͍͇̟̤̤̫̞̂̈́͗́̌͌̈̒͛̋ò̯͉̗̱̦͓̮̓̈́̃̈́̈́́̈́͂̃̄̐ͅ t̝̪͔̣͊̏̑̿͌͌̑͌͗̃͌̿ͅh̖̰̦̤̜̬̜͓͓̝͓͓͗̾̾̉̐â͇̪͍͍͚̣͍͂̆̈̓͆̄̉t̘͙̱̙͎̥̝̑̎̽̒̌̂͆͂͑͛́͑.̩̪͓̮͇̲̥̳̭͉̮̆̓̎̉</h1>
+        <h3 id="gfg"></h3>
+        <h3 id="gfgd"></h3>
+    </center>
+</body>
+</html>
